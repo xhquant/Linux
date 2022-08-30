@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg>
+    <lib lib_path="../lib/libderived_class_1.so" params="加法派生类"/>
+    <lib lib_path="../lib/libderived_class_2.so" params="乘法派生类"/>
+    <lib lib_path="../lib/libderived_class_3.so" params="除法派生类"/>
+</cfg>
