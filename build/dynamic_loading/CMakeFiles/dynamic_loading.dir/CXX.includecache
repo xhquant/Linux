@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dynamic_loading/include/base_class.hpp
+
+../dynamic_loading/include/module_handler.hpp
+dlfcn.h
+../dynamic_loading/include/dlfcn.h
+base_class.hpp
+../dynamic_loading/include/base_class.hpp
+
+/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/main.cpp
+iostream
+-
+vector
+-
+base_class.hpp
+/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/base_class.hpp
+module_handler.hpp
+/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/module_handler.hpp
+

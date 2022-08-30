@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Linux"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dynamic_loading\;CMake Files\dynamic_loading\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic_loading">
+				<Option output="/home/xiaohai/Github/MyselfReposity/Linux/bin/dynamic_loading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/include"/>
+					<Add directory="/opt/ZZZ/treelite/install/include"/>
+					<Add directory="/opt/ZZZ/rapidjson/install/include"/>
+					<Add directory="/opt/ZZZ/pybind11/install/include"/>
+					<Add directory="/opt/ZZZ/SQLite/install/include"/>
+					<Add directory="/opt/ZZZ/CTP/include"/>
+					<Add directory="/opt/ZZZ/matplotlib-cpp/install/include"/>
+					<Add directory="/opt/ZZZ/oneTBB/install/include"/>
+					<Add directory="/opt/ZZZ/date/install/include"/>
+					<Add directory="/opt/ZZZ/json/install/include"/>
+					<Add directory="/opt/ZZZ/tinyxml2/install/include"/>
+					<Add directory="/opt/ZZZ/dlib/install/include"/>
+					<Add directory="/opt/ZZZ/mlpack/install/include"/>
+					<Add directory="/opt/ZZZ/MNN/install/include"/>
+					<Add directory="/opt/ZZZ/thundersvm/install/include"/>
+					<Add directory="/opt/ZZZ/lightGBM/install/include"/>
+					<Add directory="/opt/ZZZ/xgboost/install/include"/>
+					<Add directory="/opt/ZZZ/tiny-dnn/install/include"/>
+					<Add directory="/opt/ZZZ/fmt/install/include"/>
+					<Add directory="/opt/ZZZ/log4cplus/install/include"/>
+					<Add directory="/opt/ZZZ/spdlog/install/include"/>
+					<Add directory="/opt/ZZZ/zeromq/install/include"/>
+					<Add directory="/opt/ZZZ/nanomsg/install/include"/>
+					<Add directory="/opt/ZZZ/redis/install/include"/>
+					<Add directory="/opt/ZZZ/highfive/install/include"/>
+					<Add directory="/opt/ZZZ/cereal/install/include"/>
+					<Add directory="/opt/ZZZ/rxcpp/install/include"/>
+					<Add directory="/opt/ZZZ/dataframe/install/include"/>
+					<Add directory="/opt/ZZZ/numcpp/install/include"/>
+					<Add directory="/opt/ZZZ/armadillo/install/include"/>
+					<Add directory="/opt/ZZZ/xtensor/install/include"/>
+					<Add directory="/opt/ZZZ/eigen/install/include/eigen3"/>
+					<Add directory="/opt/mysql-connector-cpp/install/include"/>
+					<Add directory="/opt/gsl/install/include"/>
+					<Add directory="/opt/nodejs/install/node_modules"/>
+					<Add directory="/opt/nodejs/install/include"/>
+					<Add directory="/opt/pybind11/install/include"/>
+					<Add directory="/opt/TA-Lib/install/include"/>
+					<Add directory="/opt/root/install/include"/>
+					<Add directory="/opt/boost/install/include"/>
+					<Add directory="/opt/python3.8/install/include/python3.8"/>
+					<Add directory="/opt/qt/install/5.14.2/gcc_64/include"/>
+					<Add directory="."/>
+					<Add directory="/opt/ZZZ/libTorch/install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 dynamic_loading"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dynamic_loading/fast">
+				<Option output="/home/xiaohai/Github/MyselfReposity/Linux/bin/dynamic_loading" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/include"/>
+					<Add directory="/opt/ZZZ/treelite/install/include"/>
+					<Add directory="/opt/ZZZ/rapidjson/install/include"/>
+					<Add directory="/opt/ZZZ/pybind11/install/include"/>
+					<Add directory="/opt/ZZZ/SQLite/install/include"/>
+					<Add directory="/opt/ZZZ/CTP/include"/>
+					<Add directory="/opt/ZZZ/matplotlib-cpp/install/include"/>
+					<Add directory="/opt/ZZZ/oneTBB/install/include"/>
+					<Add directory="/opt/ZZZ/date/install/include"/>
+					<Add directory="/opt/ZZZ/json/install/include"/>
+					<Add directory="/opt/ZZZ/tinyxml2/install/include"/>
+					<Add directory="/opt/ZZZ/dlib/install/include"/>
+					<Add directory="/opt/ZZZ/mlpack/install/include"/>
+					<Add directory="/opt/ZZZ/MNN/install/include"/>
+					<Add directory="/opt/ZZZ/thundersvm/install/include"/>
+					<Add directory="/opt/ZZZ/lightGBM/install/include"/>
+					<Add directory="/opt/ZZZ/xgboost/install/include"/>
+					<Add directory="/opt/ZZZ/tiny-dnn/install/include"/>
+					<Add directory="/opt/ZZZ/fmt/install/include"/>
+					<Add directory="/opt/ZZZ/log4cplus/install/include"/>
+					<Add directory="/opt/ZZZ/spdlog/install/include"/>
+					<Add directory="/opt/ZZZ/zeromq/install/include"/>
+					<Add directory="/opt/ZZZ/nanomsg/install/include"/>
+					<Add directory="/opt/ZZZ/redis/install/include"/>
+					<Add directory="/opt/ZZZ/highfive/install/include"/>
+					<Add directory="/opt/ZZZ/cereal/install/include"/>
+					<Add directory="/opt/ZZZ/rxcpp/install/include"/>
+					<Add directory="/opt/ZZZ/dataframe/install/include"/>
+					<Add directory="/opt/ZZZ/numcpp/install/include"/>
+					<Add directory="/opt/ZZZ/armadillo/install/include"/>
+					<Add directory="/opt/ZZZ/xtensor/install/include"/>
+					<Add directory="/opt/ZZZ/eigen/install/include/eigen3"/>
+					<Add directory="/opt/mysql-connector-cpp/install/include"/>
+					<Add directory="/opt/gsl/install/include"/>
+					<Add directory="/opt/nodejs/install/node_modules"/>
+					<Add directory="/opt/nodejs/install/include"/>
+					<Add directory="/opt/pybind11/install/include"/>
+					<Add directory="/opt/TA-Lib/install/include"/>
+					<Add directory="/opt/root/install/include"/>
+					<Add directory="/opt/boost/install/include"/>
+					<Add directory="/opt/python3.8/install/include/python3.8"/>
+					<Add directory="/opt/qt/install/5.14.2/gcc_64/include"/>
+					<Add directory="."/>
+					<Add directory="/opt/ZZZ/libTorch/install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 dynamic_loading/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="derived_class_2">
+				<Option output="/home/xiaohai/Github/MyselfReposity/Linux/lib/libderived_class_2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/include"/>
+					<Add directory="/opt/ZZZ/treelite/install/include"/>
+					<Add directory="/opt/ZZZ/rapidjson/install/include"/>
+					<Add directory="/opt/ZZZ/pybind11/install/include"/>
+					<Add directory="/opt/ZZZ/SQLite/install/include"/>
+					<Add directory="/opt/ZZZ/CTP/include"/>
+					<Add directory="/opt/ZZZ/matplotlib-cpp/install/include"/>
+					<Add directory="/opt/ZZZ/oneTBB/install/include"/>
+					<Add directory="/opt/ZZZ/date/install/include"/>
+					<Add directory="/opt/ZZZ/json/install/include"/>
+					<Add directory="/opt/ZZZ/tinyxml2/install/include"/>
+					<Add directory="/opt/ZZZ/dlib/install/include"/>
+					<Add directory="/opt/ZZZ/mlpack/install/include"/>
+					<Add directory="/opt/ZZZ/MNN/install/include"/>
+					<Add directory="/opt/ZZZ/thundersvm/install/include"/>
+					<Add directory="/opt/ZZZ/lightGBM/install/include"/>
+					<Add directory="/opt/ZZZ/xgboost/install/include"/>
+					<Add directory="/opt/ZZZ/tiny-dnn/install/include"/>
+					<Add directory="/opt/ZZZ/fmt/install/include"/>
+					<Add directory="/opt/ZZZ/log4cplus/install/include"/>
+					<Add directory="/opt/ZZZ/spdlog/install/include"/>
+					<Add directory="/opt/ZZZ/zeromq/install/include"/>
+					<Add directory="/opt/ZZZ/nanomsg/install/include"/>
+					<Add directory="/opt/ZZZ/redis/install/include"/>
+					<Add directory="/opt/ZZZ/highfive/install/include"/>
+					<Add directory="/opt/ZZZ/cereal/install/include"/>
+					<Add directory="/opt/ZZZ/rxcpp/install/include"/>
+					<Add directory="/opt/ZZZ/dataframe/install/include"/>
+					<Add directory="/opt/ZZZ/numcpp/install/include"/>
+					<Add directory="/opt/ZZZ/armadillo/install/include"/>
+					<Add directory="/opt/ZZZ/xtensor/install/include"/>
+					<Add directory="/opt/ZZZ/eigen/install/include/eigen3"/>
+					<Add directory="/opt/mysql-connector-cpp/install/include"/>
+					<Add directory="/opt/gsl/install/include"/>
+					<Add directory="/opt/nodejs/install/node_modules"/>
+					<Add directory="/opt/nodejs/install/include"/>
+					<Add directory="/opt/pybind11/install/include"/>
+					<Add directory="/opt/TA-Lib/install/include"/>
+					<Add directory="/opt/root/install/include"/>
+					<Add directory="/opt/boost/install/include"/>
+					<Add directory="/opt/python3.8/install/include/python3.8"/>
+					<Add directory="/opt/qt/install/5.14.2/gcc_64/include"/>
+					<Add directory="."/>
+					<Add directory="/opt/ZZZ/libTorch/install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 derived_class_2"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="derived_class_2/fast">
+				<Option output="/home/xiaohai/Github/MyselfReposity/Linux/lib/libderived_class_2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/include"/>
+					<Add directory="/opt/ZZZ/treelite/install/include"/>
+					<Add directory="/opt/ZZZ/rapidjson/install/include"/>
+					<Add directory="/opt/ZZZ/pybind11/install/include"/>
+					<Add directory="/opt/ZZZ/SQLite/install/include"/>
+					<Add directory="/opt/ZZZ/CTP/include"/>
+					<Add directory="/opt/ZZZ/matplotlib-cpp/install/include"/>
+					<Add directory="/opt/ZZZ/oneTBB/install/include"/>
+					<Add directory="/opt/ZZZ/date/install/include"/>
+					<Add directory="/opt/ZZZ/json/install/include"/>
+					<Add directory="/opt/ZZZ/tinyxml2/install/include"/>
+					<Add directory="/opt/ZZZ/dlib/install/include"/>
+					<Add directory="/opt/ZZZ/mlpack/install/include"/>
+					<Add directory="/opt/ZZZ/MNN/install/include"/>
+					<Add directory="/opt/ZZZ/thundersvm/install/include"/>
+					<Add directory="/opt/ZZZ/lightGBM/install/include"/>
+					<Add directory="/opt/ZZZ/xgboost/install/include"/>
+					<Add directory="/opt/ZZZ/tiny-dnn/install/include"/>
+					<Add directory="/opt/ZZZ/fmt/install/include"/>
+					<Add directory="/opt/ZZZ/log4cplus/install/include"/>
+					<Add directory="/opt/ZZZ/spdlog/install/include"/>
+					<Add directory="/opt/ZZZ/zeromq/install/include"/>
+					<Add directory="/opt/ZZZ/nanomsg/install/include"/>
+					<Add directory="/opt/ZZZ/redis/install/include"/>
+					<Add directory="/opt/ZZZ/highfive/install/include"/>
+					<Add directory="/opt/ZZZ/cereal/install/include"/>
+					<Add directory="/opt/ZZZ/rxcpp/install/include"/>
+					<Add directory="/opt/ZZZ/dataframe/install/include"/>
+					<Add directory="/opt/ZZZ/numcpp/install/include"/>
+					<Add directory="/opt/ZZZ/armadillo/install/include"/>
+					<Add directory="/opt/ZZZ/xtensor/install/include"/>
+					<Add directory="/opt/ZZZ/eigen/install/include/eigen3"/>
+					<Add directory="/opt/mysql-connector-cpp/install/include"/>
+					<Add directory="/opt/gsl/install/include"/>
+					<Add directory="/opt/nodejs/install/node_modules"/>
+					<Add directory="/opt/nodejs/install/include"/>
+					<Add directory="/opt/pybind11/install/include"/>
+					<Add directory="/opt/TA-Lib/install/include"/>
+					<Add directory="/opt/root/install/include"/>
+					<Add directory="/opt/boost/install/include"/>
+					<Add directory="/opt/python3.8/install/include/python3.8"/>
+					<Add directory="/opt/qt/install/5.14.2/gcc_64/include"/>
+					<Add directory="."/>
+					<Add directory="/opt/ZZZ/libTorch/install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 derived_class_2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="derived_class_1">
+				<Option output="/home/xiaohai/Github/MyselfReposity/Linux/lib/libderived_class_1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/include"/>
+					<Add directory="/opt/ZZZ/treelite/install/include"/>
+					<Add directory="/opt/ZZZ/rapidjson/install/include"/>
+					<Add directory="/opt/ZZZ/pybind11/install/include"/>
+					<Add directory="/opt/ZZZ/SQLite/install/include"/>
+					<Add directory="/opt/ZZZ/CTP/include"/>
+					<Add directory="/opt/ZZZ/matplotlib-cpp/install/include"/>
+					<Add directory="/opt/ZZZ/oneTBB/install/include"/>
+					<Add directory="/opt/ZZZ/date/install/include"/>
+					<Add directory="/opt/ZZZ/json/install/include"/>
+					<Add directory="/opt/ZZZ/tinyxml2/install/include"/>
+					<Add directory="/opt/ZZZ/dlib/install/include"/>
+					<Add directory="/opt/ZZZ/mlpack/install/include"/>
+					<Add directory="/opt/ZZZ/MNN/install/include"/>
+					<Add directory="/opt/ZZZ/thundersvm/install/include"/>
+					<Add directory="/opt/ZZZ/lightGBM/install/include"/>
+					<Add directory="/opt/ZZZ/xgboost/install/include"/>
+					<Add directory="/opt/ZZZ/tiny-dnn/install/include"/>
+					<Add directory="/opt/ZZZ/fmt/install/include"/>
+					<Add directory="/opt/ZZZ/log4cplus/install/include"/>
+					<Add directory="/opt/ZZZ/spdlog/install/include"/>
+					<Add directory="/opt/ZZZ/zeromq/install/include"/>
+					<Add directory="/opt/ZZZ/nanomsg/install/include"/>
+					<Add directory="/opt/ZZZ/redis/install/include"/>
+					<Add directory="/opt/ZZZ/highfive/install/include"/>
+					<Add directory="/opt/ZZZ/cereal/install/include"/>
+					<Add directory="/opt/ZZZ/rxcpp/install/include"/>
+					<Add directory="/opt/ZZZ/dataframe/install/include"/>
+					<Add directory="/opt/ZZZ/numcpp/install/include"/>
+					<Add directory="/opt/ZZZ/armadillo/install/include"/>
+					<Add directory="/opt/ZZZ/xtensor/install/include"/>
+					<Add directory="/opt/ZZZ/eigen/install/include/eigen3"/>
+					<Add directory="/opt/mysql-connector-cpp/install/include"/>
+					<Add directory="/opt/gsl/install/include"/>
+					<Add directory="/opt/nodejs/install/node_modules"/>
+					<Add directory="/opt/nodejs/install/include"/>
+					<Add directory="/opt/pybind11/install/include"/>
+					<Add directory="/opt/TA-Lib/install/include"/>
+					<Add directory="/opt/root/install/include"/>
+					<Add directory="/opt/boost/install/include"/>
+					<Add directory="/opt/python3.8/install/include/python3.8"/>
+					<Add directory="/opt/qt/install/5.14.2/gcc_64/include"/>
+					<Add directory="."/>
+					<Add directory="/opt/ZZZ/libTorch/install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 derived_class_1"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="derived_class_1/fast">
+				<Option output="/home/xiaohai/Github/MyselfReposity/Linux/lib/libderived_class_1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/include"/>
+					<Add directory="/opt/ZZZ/treelite/install/include"/>
+					<Add directory="/opt/ZZZ/rapidjson/install/include"/>
+					<Add directory="/opt/ZZZ/pybind11/install/include"/>
+					<Add directory="/opt/ZZZ/SQLite/install/include"/>
+					<Add directory="/opt/ZZZ/CTP/include"/>
+					<Add directory="/opt/ZZZ/matplotlib-cpp/install/include"/>
+					<Add directory="/opt/ZZZ/oneTBB/install/include"/>
+					<Add directory="/opt/ZZZ/date/install/include"/>
+					<Add directory="/opt/ZZZ/json/install/include"/>
+					<Add directory="/opt/ZZZ/tinyxml2/install/include"/>
+					<Add directory="/opt/ZZZ/dlib/install/include"/>
+					<Add directory="/opt/ZZZ/mlpack/install/include"/>
+					<Add directory="/opt/ZZZ/MNN/install/include"/>
+					<Add directory="/opt/ZZZ/thundersvm/install/include"/>
+					<Add directory="/opt/ZZZ/lightGBM/install/include"/>
+					<Add directory="/opt/ZZZ/xgboost/install/include"/>
+					<Add directory="/opt/ZZZ/tiny-dnn/install/include"/>
+					<Add directory="/opt/ZZZ/fmt/install/include"/>
+					<Add directory="/opt/ZZZ/log4cplus/install/include"/>
+					<Add directory="/opt/ZZZ/spdlog/install/include"/>
+					<Add directory="/opt/ZZZ/zeromq/install/include"/>
+					<Add directory="/opt/ZZZ/nanomsg/install/include"/>
+					<Add directory="/opt/ZZZ/redis/install/include"/>
+					<Add directory="/opt/ZZZ/highfive/install/include"/>
+					<Add directory="/opt/ZZZ/cereal/install/include"/>
+					<Add directory="/opt/ZZZ/rxcpp/install/include"/>
+					<Add directory="/opt/ZZZ/dataframe/install/include"/>
+					<Add directory="/opt/ZZZ/numcpp/install/include"/>
+					<Add directory="/opt/ZZZ/armadillo/install/include"/>
+					<Add directory="/opt/ZZZ/xtensor/install/include"/>
+					<Add directory="/opt/ZZZ/eigen/install/include/eigen3"/>
+					<Add directory="/opt/mysql-connector-cpp/install/include"/>
+					<Add directory="/opt/gsl/install/include"/>
+					<Add directory="/opt/nodejs/install/node_modules"/>
+					<Add directory="/opt/nodejs/install/include"/>
+					<Add directory="/opt/pybind11/install/include"/>
+					<Add directory="/opt/TA-Lib/install/include"/>
+					<Add directory="/opt/root/install/include"/>
+					<Add directory="/opt/boost/install/include"/>
+					<Add directory="/opt/python3.8/install/include/python3.8"/>
+					<Add directory="/opt/qt/install/5.14.2/gcc_64/include"/>
+					<Add directory="."/>
+					<Add directory="/opt/ZZZ/libTorch/install/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 derived_class_1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/main.cpp">
+			<Option target="dynamic_loading"/>
+		</Unit>
+		<Unit filename="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/src/derived_class_1.cpp">
+			<Option target="derived_class_1"/>
+		</Unit>
+		<Unit filename="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/src/derived_class_2.cpp">
+			<Option target="derived_class_2"/>
+		</Unit>
+		<Unit filename="/home/xiaohai/Github/MyselfReposity/Linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamic_loading\"/>
+		</Unit>
+		<Unit filename="/home/xiaohai/Github/MyselfReposity/Linux/dynamic_loading/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dynamic_loading\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

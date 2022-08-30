@@ -1,2 +1,2 @@
 # Linux
-Linux, C++, C技术汇总
+Linux, C技术汇总

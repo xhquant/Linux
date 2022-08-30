@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libderived_class_1.so -o ../../../lib/libderived_class_1.so CMakeFiles/derived_class_1.dir/derived_class_1.cpp.o 

@@ -1,0 +1,8 @@
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+INCLUDE_DIRECTORIES(include)
+
+ADD_SUBDIRECTORY(src)
+
+ADD_EXECUTABLE(dynamic_loading main.cpp)
+TARGET_LINK_LIBRARIES(dynamic_loading dl rt)
