@@ -1,9 +1,0 @@
-/home/xiaohai/Github/MyselfReposity/Linux/build/CMakeFiles/rebuild_cache.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/CMakeFiles/edit_cache.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/CMakeFiles/rebuild_cache.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/CMakeFiles/edit_cache.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/CMakeFiles/dynamic_loading.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/CMakeFiles/edit_cache.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/CMakeFiles/derived_class_2.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/CMakeFiles/rebuild_cache.dir
-/home/xiaohai/Github/MyselfReposity/Linux/build/dynamic_loading/src/CMakeFiles/derived_class_1.dir
